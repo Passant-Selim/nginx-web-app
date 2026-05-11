@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: passant22/nginx-app:v1
+          tags: passant22/nginx-app:${{ inputs.image-version}}
     
 
              
